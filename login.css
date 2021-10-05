@@ -1,0 +1,85 @@
+body {
+  height: 70vh;
+}
+
+main {
+  height: 70vh;
+}
+
+nav {
+  padding: 10px 0;
+  background-color: hsl(0, 83%, 20%);
+}
+
+.logo {
+  margin: 5px 0px;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.link {
+  margin-top: 20px;
+}
+
+.link a {
+  padding: 5px 10px;
+  height: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: hsl(0, 87%, 43%);
+}
+.link a:nth-child(4) {
+  border: 2px solid hsl(0, 87%, 43%);
+}
+
+.link a:visited {
+  border: 2px solid hsl(0, 87%, 43%);
+}
+
+.link a:focus {
+  border: 1px solid hsl(0, 87%, 43%);
+}
+
+form {
+  margin-top: 50px;
+}
+
+input {
+  padding: 5px;
+  width: 90%;
+  border-radius: 5px;
+  background-color: transparent;
+  margin-bottom: 15px;
+}
+h1 {
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+
+label {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+button {
+  text-transform: capitalize;
+  margin-top: 10px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgb(4, 4, 121);
+  color: white;
+}
+footer {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: hsl(0, 87%, 12%);
+}
+
+.socials i {
+  color: hsl(194, 66%, 51%);
+  padding-right: 30px;
+}
